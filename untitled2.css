@@ -1,0 +1,36 @@
+#footerbar ul {
+	list-style: none;
+	display: block;
+	/* float: left; */
+}
+
+#footerbar ul li {
+	display: inline-block;
+}
+
+#footlinks {
+	width: 600px;
+	height: 25px;
+	background: pink;
+	display: block;
+	position: absolute;
+	
+}
+
+
+
+#footlinks li a {
+	background-size: 25px 25px;
+	background-image: url('fb2.png');
+	background-repeat: no-repeat;
+
+}
+
+ 
+#footlinks li a.foot-fb {
+	background-position:0px 0px;
+}
+
+#footlinks li a:hover.foot-fb {
+	background-position: -20px 0px;
+}
